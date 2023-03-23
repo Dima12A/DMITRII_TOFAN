@@ -1,8 +1,11 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class HomeWork2 {
+    // HW_2 #4
         public static void main(String[] args) {
-            int month = 0;
+            int month = 4;
             switch (month){
                 case 0:
                     System.out.println("Иди в школу");
@@ -46,6 +49,30 @@ public class HomeWork2 {
                 default:
                     System.out.println("нет такого месяца");
 
+            // HW_2 #5
+            }
+            for (int j = 100; j<=1000; j++){
+                if (j % 5 == 0){
+                    System.out.println(j);
+                }
+// HW_2 #6
+            }
+            float  sum = 0;
+            for (int i = 1; i <= 97; i += 2) {
+                sum += (float) i / (i + 2);
+            }
+            System.out.println("Sum: " + sum);
+
+//HW_2 #7 (Вбонус))
+
+            for (int a = 1; a < 10; a++) {
+                System.out.print("");
+                for (int b = 1; b <= a; b++)
+                    System.out.print("*");
+                System.out.println();
             }
         }
+
+
+
 }
