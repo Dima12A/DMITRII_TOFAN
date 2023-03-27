@@ -19,6 +19,7 @@ public class Circle {
 
         double area = circle.calculateArea();
         System.out.println("Площадь круга с радиусом " + radius + " = " + area);
+
     }
 }
 
