@@ -6,6 +6,12 @@ public class Date {
     private int month;
     private int year;
 
+    public Date(int day, int month, int year) {
+        setDay(day);
+        setMonth(month);
+        setYear(year);
+    }
+
     public void setDay(int day) {
         if (day >= 1 && day <= 31) {
             this.day = day;
