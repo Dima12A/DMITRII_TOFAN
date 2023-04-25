@@ -28,12 +28,15 @@ public class Elephant implements Animalble {
         System.out.println("Elephant is the best singer in Africa");
     }
 
-    @Override
+
     public void printInfo(String name, int age, double weight) {
-        Animalble.super.printInfo(name, age, weight);
+        System.out.println("Elephant name: " + name + ", Age: " + age + ", Weight: " + weight);
     }
 
+    @Override
     public void printInfo() {
-        Animalble.super.printInfo(name, age, weight);
+
     }
+
+
 }
